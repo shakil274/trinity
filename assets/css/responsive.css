@@ -1,0 +1,153 @@
+@media all and (max-width:1140px){
+    .container{
+        width: 95%;
+        margin: auto;
+    }
+}
+@media all and (max-width:850px){
+    .navbar i{
+        display: flex;
+    }
+    .menu ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    .menu{
+        display: none;
+    }
+    .header-bottom {
+        padding: 5rem 0 2rem 0;
+    }
+    .header-bottom a {
+        margin-bottom: 2rem;
+    }
+    .menu {
+        display: none;
+        justify-content: space-around;
+    }
+    .logo{
+        display: none;
+    }
+    .header-top {
+        display: block;
+        background: #d8ad4f;
+        padding: 4.2rem;
+    }
+    .menu.active{
+        display: flex;
+    }
+    .menu ul li a.active {
+        color: #95a5a6;
+    }
+}
+@media all and (max-width:768px){
+   
+    .exercise{
+        flex-direction: column;
+    }
+    .exercise-area::after {
+        top: 46px;
+        width: calc(89% - 5px);
+    }
+    .exercise-details {
+        padding: 5.5rem 0 8rem 7rem;
+    }
+    .section {
+        flex-direction: column;
+    }
+    .section-img{
+        order: -1;
+        padding: 2.7rem 0 0 0;
+    }
+    .section-area:after{
+        width: 88.5%;
+    }
+    .section-details {
+        padding: 5rem 0rem 3rem 6.5rem;
+    }
+    .deinevorteile-header h3{
+        font-size: 6.2rem;
+    }
+    .deinevorteile-area:after{
+        left: 50%;
+    }
+    .deinevorteile-img {
+        padding: 6.5rem 6rem;
+    }
+    .letter i {
+        font-size: 1.5rem;
+        right: 3%;
+        bottom: 48%;
+    }
+}
+
+@media all and (max-width:550px){
+    .header-bottom h1{
+        font-size: 6.2rem;
+    }
+    .exercise-area::after{
+        width: 100%;
+    }
+    .section-area:after {
+        width: 100%;
+    }
+    .deinevorteile-bottom {
+        flex-direction: column;
+    }
+    .deinevorteile-details {
+        padding: 0 0 0 0;
+    }
+    .deinevorteile-details ul li{
+        font-size: 1.3rem;
+    }
+    .testimonials {
+        flex-direction: column;
+    }
+    .testimonials-left {
+        margin-right: 0rem;
+    }
+    .testimonials-right-details{
+        right: 0;
+    }
+    .testimonials-left {
+        padding: 0 0 .6rem 0;
+    }
+    .footer-top {
+        flex-direction: column;
+    }
+    .footer-top {
+        padding: 5rem 0 6rem 0;
+    }
+    .letter i {
+        font-size: 2rem;
+        right: 7%;
+        bottom: 48%;
+    }
+    .footer-item h4 {
+        margin-top: 2rem;
+    }
+    .footer-bottom::before {
+        top: -3.4rem;
+    }
+    
+}
+@media all and (max-width:420px){
+    .header-bottom h1{
+        font-size: 4.5rem;
+    }
+    .header-bottom a {
+        margin-bottom: 2rem;
+    }
+    .exercise-details h2 {
+       font-size: 3rem;
+    }
+    .section-details h2{
+        font-size: 3rem;
+    }
+    .deinevorteile-header h3 {
+        font-size: 4rem;
+    }
+    .footer-bottom::before {
+        top: -2.4rem;
+    }    
+}
