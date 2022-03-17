@@ -1,0 +1,186 @@
+@media all and (max-width:1150px){
+    .container{
+        width: 95%;
+        margin: auto;
+    }
+    .digitale-header h2{
+        font-size: 70px;
+    }
+    .digitale-header{
+        text-align: center;
+    }
+    .coaching {
+        flex-direction: column;
+        align-items: center;
+    }
+    .coaching-right{
+        text-align: center;
+    }
+    .digitale-header h2 {
+        font-size: 50.18px;
+        line-height: 5rem;
+    }
+    .coaching-area::after{
+        width: 100%;
+    }
+    .consulting{
+        grid-template-columns:100%;
+        text-align: center;
+    }
+    .consulting-right {
+        order: -1;
+    }
+    .consulting-area::after {
+        width: 100%;
+    }
+    
+}
+
+@media all and (max-width:1020px){
+    .letter i {
+        bottom: 47%;
+    }
+    .trinity-banner p{
+        right: 1%;
+    }
+}
+
+@media all and (max-width:880px){
+    .header-top{
+        flex-direction: column;
+    }
+    .trinity-banner h4 {
+        font-size: 180px;
+    }
+}
+@media all and (max-width:768px){
+    .menu ul {
+        flex-direction: column;
+    }
+    .menu ul li {
+        text-align: center;
+        border: 0.1rem solid #9400FF;
+    }
+    .banner-area {
+        grid-template-columns: 100%;
+    }
+    .banner-right {
+        margin: 5rem 0 5rem 0;
+        order: -1;
+    }
+    .banner-left {
+        margin: 0 0 100px 0;
+        text-align: center;
+    }
+    .dg-details {
+        padding: 1rem 1rem 0 1rem;
+    }
+    .trinity-banner p {
+        top: 23%;
+    }
+    .letter input[type="text"]{
+        font-size: 1rem;
+    }
+}
+
+@media all and (max-width:550px){
+    .digitale-bottom {
+        grid-template-columns: 100%;
+        grid-gap: 30px;
+    }
+    .digitale-header h2 {
+        font-size: 47px;
+        padding-bottom: 2rem;
+    }
+    .coaching-right {
+        margin: 7rem 0 3rem 0;
+    }
+    .consulting-right img {
+        padding-left: 0;
+    }
+    .consulting-left h3{
+        font-size:7rem;
+    }
+    .consulting-left {
+        margin: 5rem 0 5rem 0rem;
+    }
+    .trinity-banner h4 {
+        font-size: 120px;
+    }
+    .trinity-banner p{
+        font-size: 1.5rem;
+        top: 38%;
+        right: 5%;
+        line-height:2rem;
+    }
+    .trinity-banner {
+        padding: 5rem 0px 5rem 0;
+    }
+    .dg-details {
+        padding: 2rem;
+    }
+    .testimonials {
+        flex-direction: column;
+    }
+    .testimonials-left {
+        margin-right: 0;
+    }
+    .testimonials-left-details{
+        right: 0;
+    }
+    .testimonials-right-details {
+        right: 5px;
+        text-align: right;
+    }
+    .footer-top{
+        flex-direction: column;
+    }
+    .letter i {
+        bottom: 58%;
+    }
+    .letter input[type="text"] {
+        font-size: 1.5rem;
+    }
+    .footer-bottom::before {
+        top: -3.4rem;
+    }
+    .icon ul li a{
+        margin-bottom: 2rem;
+    }
+
+}
+@media all and (max-width:470px){
+    .banner-left h1 {
+        font-size: 5rem;
+    }
+    .digitale-header h2 {
+        font-size: 28px;
+    }
+    .coaching-right h3 {
+        font-size: 5.2rem;
+    }
+    .trinity-banner h4 {
+        font-size: 100px;
+    }
+    .trinity-banner p {
+        font-size: 1.2rem;
+        top: 35%;
+        right: 8%;
+    }
+}
+
+@media all and (max-width:340px){
+    .letter i {
+        bottom: 51%;
+    }
+    .trinity-banner h4 {
+        font-size: 76px;
+    }
+    .trinity-banner p {
+        font-size: 0.9rem;
+    }
+    .consulting-left h3 {
+        font-size: 4rem;
+    }
+}    
+
